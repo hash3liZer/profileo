@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://github.com/hash3liZer/profileo/assets/29171692/013b6c89-e5af-4fc6-b4b9-f2b6791f2092" alt="Profileo" /> <br>    
+    <img src="https://github.com/hash3liZer/profileo/assets/29171692/2342d3f9-9286-4c28-a2a4-3cd39464cc8e" alt="Profileo" /> <br>    
     Profileo 🫠
 </h1>
 <h4 align="center">The Portfolio that explains the what, who, and how of the developer inside me!</h4>
