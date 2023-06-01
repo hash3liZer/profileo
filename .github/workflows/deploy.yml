@@ -33,4 +33,4 @@ jobs:
           token : ${{ secrets.PROFILEO_TOKEN }}
           branch: gh-pages 
           folder: build
-          repository-name: 'hash3liZer/hash3liZer'
+          repository-name: 'hash3liZer/hash3liZer.github.io'
