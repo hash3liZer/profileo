@@ -273,7 +273,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "2nd Runner Up at Ignite/MOIT Hackathon (Speed Programming)",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
