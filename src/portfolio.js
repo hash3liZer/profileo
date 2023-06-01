@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "hash3liZer",
-  title: "So, you found me, huh! 👋 My name's Shameer aka (hash3liZer)",
+  title: "Hey 👋 Its Shameer Kashif",
   subTitle: emoji(
     "A passionate Full Stack engineer 🚀 having experience in the domains of Cyber Security, Cloud, DevSecOps, and Automation. I love to code, build, drink, break, probably drink again and build it back again <>."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,11 +34,12 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/hash3liZer",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/hash3lizer/",
   gmail: "me@shameerkashif.io",
   gitlab: false,
   facebook: false,
-  medium: "https://medium.com/@saadpasta",
+  medium: "",
+  instgram: "https://instagram.com/shameerkashif_",
   stackoverflow: "https://stackoverflow.com/users/8030629/shameer-kashif",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
