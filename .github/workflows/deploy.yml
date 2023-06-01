@@ -4,7 +4,7 @@ env:
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.PROFILEO_TOKEN }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "true"
-  #MEDIUM_USERNAME: "saadpasta" # Change this to your medium username
+  #MEDIUM_USERNAME: "hash3liZer"
 on:
   push:
     branches:
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        uses: actions/checkout@v3
         with:
           persist-credentials: false
 
@@ -30,6 +30,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token : ${{ secrets.PROFILEO_TOKEN }} # This is provided by GitHub.
-          branch: gh-pages # The branch the action should deploy to.
+          token : ${{ secrets.PROFILEO_TOKEN }}
+          branch: gh-pages 
           folder: build
+          repository-name: 'hash3liZer/hash3liZer'
