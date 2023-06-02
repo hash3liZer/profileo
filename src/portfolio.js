@@ -23,7 +23,7 @@ const greeting = {
   username: "hash3liZer",
   title: "Hey 👋 Its Shameer Kashif",
   subTitle: emoji(
-    "A passionate Full Stack engineer 🚀 having experience in the domains of Cyber Security, Cloud, DevSecOps, and Automation. I love to code, build, drink, break, probably drink again and build it back again <>."
+    "A passionate Full Stack engineer 🚀 having experience in the domains of Cyber Security, Cloud, DevSecOps, and Automation. I love to code, build, drink, break, probably drink again and build it back again </hash3liZer>."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -39,7 +39,7 @@ const socialMediaLinks = {
   gitlab: false,
   facebook: false,
   medium: "",
-  instgram: "https://instagram.com/shameerkashif_",
+  instagram: "https://instagram.com/shameerkashif_",
   stackoverflow: "https://stackoverflow.com/users/8030629/shameer-kashif",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -50,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I love to code, build, drink, break, probably drink again and build it back again. Maybe the loop i am in love with!",
+  subTitle: "I love to code, build, drink, break, probably drink again and build it back again. Maybe the loop i am in love with. View my stack below: ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Full Stack web applications and Cyber Security Solutions"
+      "⚡ Deliver high-end quality solutions as per your requirements (API, Web, Desktop, Linux, Windows, Cyber Security, Cloud)"
     ),
-    emoji("⚡ Work with different cloud applications, deployments such as AWS, GCP, Azure, and Heroku"),
+    emoji("⚡ Deliver and manage cloud applications & services on AWS, Azure, GCP & DigitalOcean"),
     emoji(
-      "⚡ Develop high end automated tools and workflows for Cyber Security and DevOps"
+      "⚡ Deliver high-end automated solutions for your business needs (CI/CD, DevSecOps, Automation, Scripting, Scraping)"
     )
   ],
 
@@ -66,20 +66,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "python-3/2",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
+      skillName: "javascript/typescript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "flask",
+      fontAwesomeClassname: "fas fa-cube"
+    },
+    {
+      skillName: "terminal",
+      fontAwesomeClassname: "fas fa-terminal"
     },
     {
       skillName: "reactjs",
@@ -90,12 +90,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "django",
+      fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "c/c++",
+      fontAwesomeClassname: "fas fa-keyboard"
     },
     {
       skillName: "sql-database",
@@ -106,17 +106,33 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "azure",
+      fontAwesomeClassname: "fas fa-bars"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "html5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3/sass",
+      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "cloud",
+      fontAwesomeClassname: "fas fa-sitemap"
+    },
+    {
+      skillName: "ansible",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fas fa-cubes"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -128,22 +144,26 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Air University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/airunilogo.png"),
       subHeader: "Bachelors of Science in Cyber Security",
       duration: "2019 - 2023",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Completed 4 years of the program. Took courses about Software Engineering, Web Security, Operating Systems, Programming Practices & Principles, ...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Acted as Vice-President of Air University Bits & Bytes Society",
+        "Organizated national level CTF Hackathon",
+        "Won 2 cateogires in national level CTF Hackathon by Ignite and Ministry of IT (2021)",
+        "Held various cyber security workshops and seminars for students."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Punjab College",
+      logo: require("./assets/images/punjablogo.png"),
+      subHeader: "ICS (Computer Science)",
+      duration: "2017 - 2019",
+      desc: "Complted 2 of ICS in comuter science. Took courses about Programming, Web Development and OOP...",
+      descBullets: [
+        "Got 2nd position in the 1st year of college",
+      ]
     }
   ]
 };
@@ -154,15 +174,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Full Stack (API) Development", //Insert stack or technology you have experience in
+      Stack: "FULL STACK | API: (Django|React|Next.js|DRF)", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Cyber Security",
+      Stack: "CYBER SECURITY: (Kali|AD|Metasploit|Pentest|RedTeam|ecPPtv2)",
       progressPercentage: "80%"
     },
     {
-      Stack: "DevOps / Cloud",
+      Stack: "DEVOPS | CLOUD: (OpenStack/|AWS|Azure|Docker|Kubernetes|Terraform|Ansible)",
       progressPercentage: "80%"
     }
   ],
@@ -177,27 +197,23 @@ const workExperiences = {
     {
       role: "Cybersecurity Engineer | BE",
       company: "Horizon Tech LTD",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/horizonlogo.png"),
       date: "December 2021 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Horizon Tech provides is a Cybersecurity company based in Islamabad. They provide comprehensive security services and offers a range of cybersecurity related products. ",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Developer | Cyber Security",
+      company: "Contract (Brazil)",
+      companylogo: require("./assets/images/contractlogo.png"),
+      date: "2020 – 2022",
+      desc: "Worked with a client from Brazil on a contract. The contract involved developing a Cyber Security related application for Windows & Linux Operating Systems",
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelance Development & Pentest",
+      company: "Upwork/Fiverr",
+      companylogo: require("./assets/images/upworklogo.png"),
+      date: "2019 - Present",
+      desc: "I provide my freelance development and penetration testing services to various clients on freelance platforms. ",
     }
   ]
 };
@@ -213,29 +229,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Startup / Projects",
+  subtitle: "SOME STARTUPS AND AMAZING TECH THAT I WORKED ON!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/airoverflowlogo.png"),
+      projectName: "AirOverflow (Startup)",
+      projectDesc: "Worked on the platforms for CTF challenges and real time cyber simulations",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
         //  you can add extra buttons here.
+        {
+          name: "Startup Website",
+          url: "https://airoverflow.com/"
+        }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/subrake.png"),
+      projectName: "Subrake",
+      projectDesc: "A Subdomain Reconnaissnace toolkit that I developed in Python",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Project",
+          url: "https://github.com/hash3liZer/subrake"
         }
       ]
     }
@@ -253,50 +269,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "1st Runner Up at National Hackathon (Pakistan)",
+      title: "1st Runner Up for Network Exploitation (Pakistan Hackathon 2021)",
       subtitle:
-        "First Runner Up at National Hackathon (Pakistan) by Ignite",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Gpt 2nd position in the Network Exploitation category of Pakistan Hackathon 2021",
+      image: require("./assets/images/hackathon.jpeg"),
+      imageAlt: "Ignite hackathon",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "President Arif Alvi handing us the award",
+          url: "https://ignite.org.pk/digital-pakistan-grand-finale-awards-ceremony/"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "2nd Runner Up at Ignite/MOIT Hackathon (Speed Programming)",
+      title: "2nd Runner Up for Speed Programming (Pakistan Hackathon 2021)",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Gpt 3rd position in the Speed Programming category of Pakistan Hackathon 2021",
+      image: require("./assets/images/hackathon2.png"),
+      imageAlt: "Ignite Hackathon",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "President Arif Alvi handing us the award",
+          url: "https://ignite.org.pk/digital-pakistan-grand-finale-awards-ceremony/"
+        },
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Top Rated Plus Badge",
+      subtitle: "Top Rated Plus Badge on Upwork",
+      image: require("./assets/images/toprated.png"),
+      imageAlt: "Top Rated PLus",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "More about Top Rated plus",
+          url: "https://support.upwork.com/hc/en-us/articles/360049702614-Upwork-s-Talent-Badges"
         }
       ]
     }
@@ -310,19 +317,31 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://web.archive.org/web/20201203033133/https:/www.shellvoide.com/wifi/how-to-crack-wifi-password-using-pmkid-new-method-wifibroot/",
+      title: "Capturing the PMKID of WPA2 and performing brute force against it",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "This guide covers attacking the weakness discovered by Jens Steube the writer of Hashcat in the specification of WPA2. This allows an attacker to capture a hash without establishing the 4 way handshake with the targetted wireless System. We here are going to see a customized tool developed by me for the purpose."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://web.archive.org/web/20210614222116/https://www.shellvoide.com/wifi/setting-up-fake-access-point-or-evil-twin-to-hack-wifi-rogue-ap/",
+      title: "How to Setup Fake (Rogue) Access Point on Linux | hostapd",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "how one can use Fake (Rogue) Access Point to sneak passphrases and other important target details over the air by showing targets a fabricated document. We will do hell of this task using hostapd, a well-written ad-hoc software."
+    },
+    {
+      url: "https://web.archive.org/web/20210119000817/https:/www.shellvoide.com/wifi/how-to-setup-captive-portal-login-with-rogue-ap-nginx/",
+      title: "Captive Portal Guide: Setup Your Fake Access Point",
+      description:
+        "A comprehensive guide published on Captive Portals in the wild. A Captive portal is an advanced level technique used by attackers to harvest WiFi Credentials. It involves various steps and configuration and is one of the most advanced methodologies used in the realm of WiFi Hacking."
+    },
+    {
+      url: "https://web.archive.org/web/20210118223148/https://www.shellvoide.com/python/scraping-and-download-all-images-from-a-web-page-python/",
+      title: "Scraping and Download All Images from a Web Page",
+      description:
+        "Here's a small guide to help you downloading images from website and web pages in a bulk amount through python. This guide will help you through the basics of downloading images from a web source in a bulk by extractin"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -344,7 +363,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -364,7 +383,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+92-3192205651",
   email_address: "me@shameerkashif.io"
 };
 
@@ -372,10 +391,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "hash3liZer", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
