@@ -23,7 +23,7 @@ const greeting = {
   username: "hash3liZer",
   title: "Hey 👋 Its Shameer Kashif",
   subTitle: emoji(
-    "Creative and passionate DevSecOps Engineer 🚀 with experience in Cybersecurity, Cloud, Full Stack and Automation. I love to code, build, drink, break, probably drink again and build it back again </hash3liZer>."
+    "🚀 A Passionate Programmer with the love of Cyber Security and Automation. I love to design and program things and then also discover flaws in them. <code>type here</code>."
   ),
   resumeLink:
     "", // Set to empty to hide the button
