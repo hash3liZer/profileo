@@ -23,10 +23,10 @@ const greeting = {
   username: "hash3liZer",
   title: "Hey 👋 Its Shameer Kashif",
   subTitle: emoji(
-    "🚀 A Passionate Programmer with the love of Cyber Security and Automation. I love to design and program things and then also discover flaws in them. <code>type here</code>."
+    "🚀 A Passionate Programmer with the love of Cyber Security and Automation. I love to design and program things and then also discover flaws in them. {/**/}."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://blog.shameerkashif.me/about/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -174,15 +174,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "FULL STACK | API: (Django|React|Next.js|DRF)", //Insert stack or technology you have experience in
+      Stack: "FULL STACK | API", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "CYBER SECURITY: (Kali|AD|Metasploit|Pentest|RedTeam|ecPPtv2)",
+      Stack: "CYBER SECURITY",
       progressPercentage: "80%"
     },
     {
-      Stack: "DEVOPS | CLOUD: (OpenStack/|AWS|Azure|Docker|Kubernetes|Terraform|Ansible)",
+      Stack: "DEVOPS | CLOUD",
       progressPercentage: "80%"
     }
   ],
