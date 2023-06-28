@@ -269,9 +269,22 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "2nd position in CTF PUCON'23 (On-line, based in Lahore)",
+      subtitle:
+        "Me and my team member Ali Taqi Wajid were able to secure 2nd position in this on-line CTF of Lahore.",
+      image: require("./assets/images/pucon.jpeg"),
+      imageAlt: "PUCON'23",
+      footerLink: [
+        {
+          name: "Award received by from PUCON'23 CTF",
+          url: "#"
+        },
+      ]
+    },
+    {
       title: "1st Runner Up for Network Exploitation (Pakistan Hackathon 2021)",
       subtitle:
-        "Gpt 2nd position in the Network Exploitation category of Pakistan Hackathon 2021",
+        "Got 2nd position in the Network Exploitation category of Pakistan Hackathon 2021",
       image: require("./assets/images/hackathon.jpeg"),
       imageAlt: "Ignite hackathon",
       footerLink: [
@@ -391,7 +404,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "hash3liZer", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
