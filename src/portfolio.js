@@ -175,15 +175,15 @@ const techStack = {
   experience: [
     {
       Stack: "FULL STACK | API", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "CYBER SECURITY",
-      progressPercentage: "80%"
+      progressPercentage: "65%"
     },
     {
       Stack: "DEVOPS | CLOUD",
-      progressPercentage: "80%"
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -195,7 +195,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Cybersecurity Engineer | BE",
+      role: "DevSecOps Engineer",
       company: "Horizon Tech LTD",
       companylogo: require("./assets/images/horizonlogo.png"),
       date: "December 2021 – Present",
