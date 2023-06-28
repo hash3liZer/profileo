@@ -26,7 +26,7 @@ const greeting = {
     "🚀 A Passionate Programmer with the love of Cyber Security and Automation. I love to design and program things and then also discover flaws in them. {/**/}."
   ),
   resumeLink:
-    "https://blog.shameerkashif.me/about/", // Set to empty to hide the button
+    "https://blog.shameerkashif.me/resume/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
