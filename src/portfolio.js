@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/hash3liZer",
   linkedin: "https://www.linkedin.com/in/hash3lizer/",
-  gmail: "me@shameerkashif.io",
+  gmail: "me@shameerkashif.me",
   gitlab: false,
   facebook: false,
   medium: "",
@@ -397,7 +397,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3192205651",
-  email_address: "me@shameerkashif.io"
+  email_address: "me@shameerkashif.me"
 };
 
 // Twitter Section
