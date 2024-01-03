@@ -23,7 +23,7 @@ const greeting = {
   username: "hash3liZer",
   title: "Hey 👋 Its Shameer Kashif",
   subTitle: emoji(
-    "🚀 A Passionate Programmer with the love of Cyber Security and Automation. I love to design and program things and then also discover flaws in them. {/**/}."
+    "🚀 A Guy in Cyber Security. Crafting Code & Breaking Applications. {/**/}."
   ),
   resumeLink:
     "https://blog.shameerkashif.me/resume/", // Set to empty to hide the button
@@ -179,7 +179,7 @@ const techStack = {
     },
     {
       Stack: "CYBER SECURITY",
-      progressPercentage: "65%"
+      progressPercentage: "70%"
     },
     {
       Stack: "DEVOPS | CLOUD",
@@ -195,25 +195,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Application Security Engineer (Appsec)",
+      company: "Trustline",
+      companylogo: require("./assets/images/trustlinelogo.jpeg"),
+      date: "October 2023 – Present",
+      desc: "Full Time | Based in Riyadh, KSA (Remote)",
+    },
+    {
+      role: "Cyber Security Specialist",
+      company: "The COZM",
+      companylogo: require("./assets/images/cozmlogo.jpeg"),
+      date: "July 2023 – Present",
+      desc: "Contract | Based in London, United Kingdom (Remote)",
+    },
+    {
       role: "DevSecOps Engineer",
       company: "Horizon Tech LTD",
       companylogo: require("./assets/images/horizonlogo.png"),
       date: "December 2021 – Present",
-      desc: "Horizon Tech provides is a Cybersecurity company based in Islamabad. They provide comprehensive security services and offers a range of cybersecurity related products. ",
+      desc: "Full Time | Based in Islamabad, Pakistan (On Site)",
     },
     {
       role: "Full Stack Developer | Cyber Security",
       company: "Contract (Brazil)",
       companylogo: require("./assets/images/contractlogo.png"),
       date: "2020 – 2022",
-      desc: "Worked with a client from Brazil on a contract. The contract involved developing a Cyber Security related application for Windows & Linux Operating Systems",
+      desc: "Contract | Based in Sao Palo, Brazil (Remote)",
     },
     {
       role: "Freelance Development & Pentest",
       company: "Upwork/Fiverr",
       companylogo: require("./assets/images/upworklogo.png"),
-      date: "2019 - Present",
-      desc: "I provide my freelance development and penetration testing services to various clients on freelance platforms. ",
+      date: "2019 - 2023",
+      desc: "Freelance | Based on Upwork And Fiverr",
     }
   ]
 };
@@ -268,6 +282,19 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Winner in National Hackathon 2023 Pakistan",
+      subtitle:
+        "Won national Pakistan hackathon 2023. Got cash prize, vouchers and sponsored tours",
+      image: require("./assets/images/hackathon23.jpeg"),
+      imageAlt: "Hackathon'23",
+      footerLink: [
+        {
+          name: "Ceremory at PC Hotel, Islamabad",
+          url: "#"
+        },
+      ]
+    },
     {
       title: "2nd position in CTF PUCON'23 (On-line, based in Lahore)",
       subtitle:
@@ -421,7 +448,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
+  // blogSection,
   talkSection,
   podcastSection,
   contactInfo,
