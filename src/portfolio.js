@@ -50,10 +50,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I love to code, build, drink, break, probably drink again and build it back again. Maybe the loop i am in love with. View my stack below: ",
+  subTitle: "Cyber Security & DevSecOps: ",
   skills: [
     emoji(
-      "⚡ Deliver high-end quality solutions as per your requirements (API, Web, Desktop, Linux, Windows, Cyber Security, Cloud)"
+      "⚡ Deliver high-end quality solutions (API, Web, Desktop, Linux, Windows, Cyber Security, Cloud)"
     ),
     emoji("⚡ Deliver and manage cloud applications & services on AWS, Azure, GCP & DigitalOcean"),
     emoji(
@@ -174,16 +174,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "FULL STACK | API", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "CYBER SECURITY", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "CYBER SECURITY",
-      progressPercentage: "70%"
+      Stack: "DEVSECOPS & CLOUDS",
+      progressPercentage: "80%"
     },
     {
-      Stack: "DEVOPS | CLOUD",
-      progressPercentage: "65%"
+      Stack: "FULL STACK (Python & React)",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -195,14 +195,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Application Security Engineer (Appsec)",
+      role: "Application Security Engineer (Appsec & DevSecOps)",
       company: "Trustline",
       companylogo: require("./assets/images/trustlinelogo.jpeg"),
       date: "October 2023 – Present",
       desc: "Full Time | Based in Riyadh, KSA (Remote)",
     },
     {
-      role: "Cyber Security Specialist",
+      role: "Cyber Security Specialist & DevOps",
       company: "The COZM",
       companylogo: require("./assets/images/cozmlogo.jpeg"),
       date: "July 2023 – Present",
@@ -216,14 +216,14 @@ const workExperiences = {
       desc: "Full Time | Based in Islamabad, Pakistan (On Site)",
     },
     {
-      role: "Full Stack Developer | Cyber Security",
+      role: "Full Stack Engineer | Cyber Security",
       company: "Contract (Brazil)",
       companylogo: require("./assets/images/contractlogo.png"),
       date: "2020 – 2022",
       desc: "Contract | Based in Sao Palo, Brazil (Remote)",
     },
     {
-      role: "Freelance Development & Pentest",
+      role: "Full Stack & Cyber Security",
       company: "Upwork/Fiverr",
       companylogo: require("./assets/images/upworklogo.png"),
       date: "2019 - 2023",
