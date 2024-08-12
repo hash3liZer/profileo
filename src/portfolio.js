@@ -53,11 +53,11 @@ const skillsSection = {
   subTitle: "Cyber Security & DevSecOps: ",
   skills: [
     emoji(
-      "⚡ Deliver high-end quality solutions (API, Web, Desktop, Linux, Windows, Cyber Security, Cloud)"
+      "⚡ Cyber Security & DevSecOps (Automations, CI/CD, Terraform, Pentesting, Exploitation)"
     ),
-    emoji("⚡ Deliver and manage cloud applications & services on AWS, Azure, GCP & DigitalOcean"),
+    emoji("⚡ Manage Cloud Applications & Deployments"),
     emoji(
-      "⚡ Deliver high-end automated solutions for your business needs (CI/CD, DevSecOps, Automation, Scripting, Scraping)"
+      "⚡ Full Stack Engineering (Django & React Stack)"
     )
   ],
 
@@ -149,8 +149,8 @@ const educationInfo = {
       duration: "2019 - 2023",
       desc: "Completed 4 years of the program. Took courses about Software Engineering, Web Security, Operating Systems, Programming Practices & Principles, ...",
       descBullets: [
-        "Acted as Vice-President of Air University Bits & Bytes Society",
-        "Organizated national level CTF Hackathon",
+        "Conferences & Socieites",
+        "Pak CTF 2022 and 2023",
         "Won 2 cateogires in national level CTF Hackathon by Ignite and Ministry of IT (2021)",
         "Held various cyber security workshops and seminars for students."
       ]
@@ -162,7 +162,6 @@ const educationInfo = {
       duration: "2017 - 2019",
       desc: "Complted 2 of ICS in comuter science. Took courses about Programming, Web Development and OOP...",
       descBullets: [
-        "Got 2nd position in the 1st year of college",
       ]
     }
   ]
@@ -243,18 +242,18 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Startup / Projects",
-  subtitle: "SOME STARTUPS AND AMAZING TECH THAT I WORKED ON!",
+  title: "Projects",
+  subtitle: "SOME AMAZING TECH THAT I WORKED ON!",
   projects: [
     {
       image: require("./assets/images/airoverflowlogo.png"),
-      projectName: "AirOverflow (Startup)",
-      projectDesc: "Worked on the platforms for CTF challenges and real time cyber simulations",
+      projectName: "WiFiBroot",
+      projectDesc: "A wireless pentest automation utility",
       footerLink: [
         //  you can add extra buttons here.
         {
-          name: "Startup Website",
-          url: "https://airoverflow.com/"
+          name: "WiFiBroot",
+          url: "https://github.com/hash3liZer/WiFiBroot/"
         }
       ]
     },
