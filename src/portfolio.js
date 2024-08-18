@@ -209,7 +209,7 @@ const workExperiences = {
     },
     {
       role: "DevSecOps Engineer",
-      company: "Horizon Tech LTD",
+      company: "SNSkies",
       companylogo: require("./assets/images/horizonlogo.png"),
       date: "December 2021 – Present",
       desc: "Full Time | Based in Islamabad, Pakistan (On Site)",
